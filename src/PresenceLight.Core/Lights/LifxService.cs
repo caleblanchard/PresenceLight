@@ -47,7 +47,7 @@ namespace PresenceLight.Core
             switch (availability)
             {
                 case "Available":
-                    color = "green";
+                    color = "white";
                     break;
                 case "Busy":
                     color = "red";
@@ -56,7 +56,7 @@ namespace PresenceLight.Core
                     color = "yellow";
                     break;
                 case "Away":
-                    color = "yellow";
+                    color = "white";
                     break;
                 case "DoNotDisturb":
                     color = "purple";
